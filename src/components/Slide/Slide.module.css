@@ -1,0 +1,12 @@
+.menuBtn {
+  width: 3rem;
+  height: 3rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.menuBtn .menuIcon {
+  font-size: 2rem;
+  background-color: transparent;
+  color: #7439db;
+}

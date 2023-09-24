@@ -1,0 +1,93 @@
+.form-container .login-form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+@media screen and (min-width: 600px) {
+    .form-container {
+        width: 500px;
+        padding: 0rem 3rem 3rem 3rem;
+        border: 10px solid;
+        border-image-slice: 1;
+        border-width: 5px;
+        border-image-source: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+
+        border-radius: 10px;
+        margin: 6rem 2rem;
+    }
+}
+
+.form-title {
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+    font-family: 'PatrickHand';
+}
+.name-text {
+    padding: 0px 10px;
+    font-size: 40px;
+    color: white;
+    font-family: 'PatrickHand';
+}
+.email-text {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'PatrickHand';
+}
+
+.form-label {
+    color: white;
+    font-size: 18px;
+    font-family: 'PatrickHand';
+    font-weight: 100;
+    text-align: left;
+    padding: 0.25rem 0;
+}
+
+.form-input {
+    font-size: 18px;
+    font-family: 'PatrickHand';
+    margin: 0.5rem 0;
+}
+
+.form-textarea {
+    font-size: 18px;
+
+    font-family: 'PatrickHand';
+    resize: none;
+    margin: 0.5rem 0;
+    height: 100px;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+
+.btn-center {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.ava-img {
+    margin-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.link-btn {
+    font-family: 'Kanit';
+    font-size: 18px;
+    background: none;
+    color: white;
+    text-decoration: underline;
+  }

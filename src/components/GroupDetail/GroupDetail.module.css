@@ -1,0 +1,33 @@
+.gradient-datagrid {
+    padding: 40px;
+    font-size: 16px;
+    font-family: 'PatrickHand';
+    color: white;
+
+    border-image-slice: 1;
+
+    border-image-source: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+
+}
+
+.gradient-line{
+    background-image: linear-gradient(to right, #7439db, #C66FBC 48%, #F7944D);
+    border: 0;
+    height: 2px;
+}
+
+/* .gradient-datagrid .MuiDataGrid-cell:hover{
+    color: 'primary.main'
+}
+
+.gradient-datagrid .MuiButtonBase-root{
+    color: white
+}
+
+.gradient-datagrid .MuiTablePagination-displayedRows{
+    color: white
+}
+
+.gradient-datagrid .MuiTablePagination-actions{
+    color: white
+} */

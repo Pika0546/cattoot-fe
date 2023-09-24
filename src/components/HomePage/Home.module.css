@@ -1,0 +1,14 @@
+h1 {
+    font-family: "Kanit";
+    font-size: 100px;
+    /* font-weight: 100; */
+    padding: 10px;
+    color: white;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
